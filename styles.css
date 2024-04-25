@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  background-color: #757575;
+  background-color: #aaaaaa;
   overflow: hidden;
   padding: 20px;
 }
@@ -37,8 +37,9 @@ nav ul li a:hover {
 }
 
 .logo img {
-  width: 25px;
+  width: 80px;
   height: auto;
+  border-radius: 50%;
 }
 
 /* Slideshow Section */
