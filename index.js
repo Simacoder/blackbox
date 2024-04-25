@@ -44,3 +44,19 @@ function appendToDocument() {
 
 // Call the function to append the elements to the document
 appendToDocument();
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the footer links
+  var link1 = document.querySelector(".icons li:nth-child(1) a");
+  var link3 = document.querySelector(".icons li:nth-child(3) a");
+
+  // Add event listener to link 1 to reload the page
+  link1.addEventListener("click", function (event) {
+    location.reload();
+    event.preventDefault(); // Prevent the default link behavior
+  });
+
+  // Prevent the default link behavior for link 3
+  link3.addEventListener("click", function (event) {
+    event.preventDefault();
+  });
+});
