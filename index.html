@@ -1,87 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blackbox website</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- FontAwosome CDN Link for icons-->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
-<body>
-    <h1>Web Design and Development</h1>
-    <div>
-        <img src="images/webdevelopment.jpg" height="300" alt="">
-        <p> Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackbox group</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="img/icons/logo.png" alt="Logo" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img class="slideshow-img" src="img/3.jpg" alt="Slide 1" />
+      </div>
+      <div class="mySlides">
+        <img class="slideshow-img" src="img/2.png" alt="Slide 2" />
+      </div>
+      <div class="mySlides">
+        <img class="slideshow-img" src="img/4.jpg" alt="Slide 3" />
+      </div>
+      <div class="dot-container">
+        <!-- Dots for navigation -->
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
-
-    <br/>
-
-     <!-- start Quiz button -->
-     
-     <div class="start_btn"><button>Start Quiz</button></div>
-    
-     <!-- Info Box -->
-     <div class="info_box">
-         <div class="info-title"><span>Some Rules of this Quiz</span></div>
-         <div class="info-list">
-             <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
-             <div class="info">2. Once you select your answer, it can't be undone.</div>
-             <div class="info">3. You can't select any option once time goes off.</div>
-             <div class="info">4. You can't exit from the Quiz while you're playing.</div>
-             <div class="info">5. You'll get points on the basis of your correct answers.</div>
-         </div>
-         <div class="buttons">
-             <button class="quit">Exit Quiz</button>
-             <button class="restart">Continue</button>
-         </div>
-     </div>
- 
-     <!-- Quiz Box -->
-     <div class="quiz_box">
-         <header>
-             <div class="title">Blackbox Quiz Application</div>
-             <div class="timer">
-                 <div class="time_left_txt">Time Left</div>
-                 <div class="timer_sec">15</div>
-             </div>
-             <div class="time_line"></div>
-         </header>
-         <section>
-             <div class="que_text">
-           
-             </div>
-             <div class="option_list">
-         
-             </div>
-         </section>
- 
-       
-         <footer>
-             <div class="total_que">
-               
-             </div>
-             <button class="next_btn">Next Que</button>
-            </footer>
+    <div class="card-container">
+      <!-- First Card -->
+      <div class="card">
+        <div class="description">
+          <h2>Description 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            doloribus, libero eligendi quam, vitae ipsa illum sit vero neque a
+            maiores harum ut repellendus. Dolore fugit eius at laboriosam
+            voluptatum!
+          </p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            illo iusto totam fugit officia corrupti quidem quasi voluptatibus
+            molestiae culpa dolor, quam odio. Sunt ipsam doloribus ea, obcaecati
+            quisquam facilis.
+          </p>
         </div>
-    
-        <!-- Result Box -->
-        <div class="result_box">
-            <div class="icon">
-                <i class="fas fa-crown"></i>
-            </div>
-            <div class="complete_text">You've completed the Quiz!</div>
-            <div class="score_text">
-              
-            </div>
-            <div class="buttons">
-                <button class="restart">Replay Quiz</button>
-                <button class="quit">Quit Quiz</button>
-            </div>
+        <img src="img/res.jpg" alt="Image" />
+      </div>
+      <!-- Second Card -->
+      <div class="card">
+        <div class="description">
+          <h2>Description 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            doloribus, libero eligendi quam, vitae ipsa illum sit vero neque a
+            maiores harum ut repellendus. Dolore fugit eius at laboriosam
+            voluptatum!
+          </p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            illo iusto totam fugit officia corrupti quidem quasi voluptatibus
+            molestiae culpa dolor, quam odio. Sunt ipsam doloribus ea, obcaecati
+            quisquam facilis.
+          </p>
         </div>
-    
-
-<script src="sctript.js"></script>
-
-</body>
+        <img src="img/res1.jpg" alt="Image" />
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="address">
+          <p>
+            The Innovation Hub, The Enterprise Building, Allan Cormack St,
+            Persequor, Pretoria, 0020
+          </p>
+        </div>
+        <div class="icons">
+          <ul>
+            <li>
+              <a href=" " target="_blank"
+                ><img src="img/icons/fb1.png" alt="Link 1" class="icon"
+              /></a>
+            </li>
+            <li>
+              <a href=" " target="_blank"
+                ><img src="img/icons/insta.svg" alt="link 2" class="icon"
+              /></a>
+            </li>
+            <li>
+              <a href=" " target="_blank"
+                ><img src="img/icons/link.png" alt="link 3" class="icon"
+              /></a>
+            </li>
+            <li>
+              <a href=" " target="_blank"
+                ><img src="img/icons/git.png" alt="link 4" class="icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14374.652174096427!2d28.2686481!3d-25.7486544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9560451d408f9d%3A0xb180e978338dcefd!2smLab%20Southern%20Africa!5e0!3m2!1sen!2sza!4v1714026936823!5m2!1sen!2sza"
+            width="150%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
