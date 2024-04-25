@@ -44,6 +44,7 @@ function appendToDocument() {
 
 // Call the function to append the elements to the document
 appendToDocument();
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", function () {
   // Get the footer links
   var link1 = document.querySelector(".icons li:nth-child(1) a");
@@ -60,3 +61,5 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
   });
 });
+=======
+>>>>>>> 04790bb6e95d845d519de750aff9646c56ee72f3
