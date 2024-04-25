@@ -1,16 +1,16 @@
-# Blackbox Team 
+# Blackbox Team
 
+## We design and develop
 
-## Wed design and development 
+# Tech Stack
 
-# Tech Stack 
 - HTML
 - CSS
 - JAVASCRIPT
 
-
 # AUTHOR
-- Simanga Mchunu 
+
+- Simanga Mchunu
 - Chadrack Ndalamba
 - Nkululeko Sedibe
 - Mosa Mothibi
