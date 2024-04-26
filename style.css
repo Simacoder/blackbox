@@ -21,7 +21,7 @@ body{
 .quiz_box,
 .result_box{
     position: absolute;
-    top: 70%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
@@ -41,7 +41,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     color: #007bff;
-    padding: 15px 30px;
+    padding: 10px 20px;
     outline: none;
     border: none;
     border-radius: 5px;
